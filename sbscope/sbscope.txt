@@ -1,0 +1,111 @@
+
+                         === [ SB-Scope v0.95 ] ===
+
+                                      by
+
+                                Andrew Ferrier
+                                 ............
+
+                      Information and Documentation File
+
+ Legal Information
+
+   This program (SB-Scope), as well as it's affiliated files, listed below,
+   are copyright Andrew Ferrier, Spheroid Software 1996.
+
+   Andrew Ferrier and Spheroid Software disclaim all and any responsibility
+   for any harm, loss of earnings, destruction, or anything that this program
+   or its affiliated files may do, through use or misuse by you or anyone
+   or anything else.
+
+   Andrew Ferrier and Spheroid Softwae make no guarantees with respect to
+   this program (and it's affiliated files), and any suitability for
+   a purpose.
+
+   Andrew Ferrier retains all copyright rights to this program, and this
+   program or its associated files may not be tampered with in any way.
+   This includes disassembling, decompiling, and reverse engineering.
+
+   This program can be distibuted freely, but only in it's original form
+   (a ZIP file), and with all original files intact.
+
+   All copyrights, trademarks, and service marks mentioned in this file
+   and others that are part of the SB-Scope package belong to their respective
+   companies.
+
+ Contents of ZIP File
+
+   SBSCOPE.TXT          This text file
+   FILE_ID.DIZ          Bulletin board information file
+   README.1ST           Text File directing you here
+   SBSCOPE.EXE          SB-Scope Program - SB Port 220h (default)
+   SBSC_240.EXE         SB-Scope Program - SB Port 240h
+   SBSC_260.EXE         SB-Scope Program - SB Port 260h
+   SBSC_280.EXE         SB-Scope Program - SB Port 280h
+
+ What is SB-Scope?
+
+   SB-Scope is a oscilloscope for the Sound Blaster output. It displays
+   the digital wave output (DSP output) of the Sound Blaster on the
+   screen. This output can come fom many places. Two of the most common
+   are an Audio CD Player (povided it is connected to the sound card), and
+   a microphone (hooked up to the microphone port).
+
+ What is required to run SB-Scope?
+
+   Only a Sound Blaster (almost any type should do, right down to the
+   earliest mono Sound Blasters), and a VGA card + monitor. A 80386 or
+   greater processor is also required, because SB-Scope is written in
+   386+ assembly language.
+
+ How do I use SB-Scope?
+
+   Very easily. Simply run sbscope.exe, having started a CD or some
+   other input source to the Sound Blaster. To end the program, press
+   any key. You may find more visually pleasing results by altering
+   mixer settings for your sound card, especially output volume.
+
+   If your Sound Blaster I/O port is set to anything other than 220h
+   (you should have set the I/O port when installing the card), then you
+   may need to use one of the other versions of the program listed above.
+   Simply run sbsc_xxx.exe, where xxx is the port number. If you do not
+   know what the I/O port number is, look in the documentation for
+   your computer and/or sound card for information on finding it out.
+
+ Hints for use
+
+   First please make it known that although I understand digital audio,
+   I am not an expert on acoustics and sound in general. What follows
+   are only my observations.
+
+   1. Lowering the sound volume (at source, in the mixer) may look better
+      on the screen, for the wave will be of more sensible proportions.
+
+   2. Voice and drums generally look fairly good. Guitars, especially
+      electric ones with complex music in the background, tend to mix
+      up the wave and it looks rather confused and random.
+
+   3. 'Smooth' sounds produce cleaner-looking waves than harsh sounds.
+
+   4. Running the program on a faster computer may help to make the wave
+      smoother. I run it on a 386sx/16 and it is almost full speed apart
+      from when the wave is at maximum amplitude. Remember, SB-Scope
+      cannot run on a computer lower than a 386, for it uses 386
+      instructions, which at the time of writing are only supported by the
+      386, 486, Pentium, Pentium Pro and similar 'clones'.
+
+ How do I contact Spheroid Software?
+
+   This program is freeware, but a response on what you think of it
+   would be appreciated. Similarly, if you cannot get it to work, and
+   you are sure you have a computer with all the features mentioned above,
+   we would like to know - problems can normally be fixed quickly,
+   and a bug-free copy can probably be sent to you.
+
+ SPECIAL NOTE:
+
+   Spheroid Software is looking for budding programmers who want
+   to distribute their programs. Visit the Spheroid Software web site
+   (address above) for details. Any sort of progamming experience
+   suitable.
+
